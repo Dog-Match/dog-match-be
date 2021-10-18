@@ -1,5 +1,5 @@
 ## Dog Match 
-<kbd> **Taylor Williams, Amit Sheth, Dylan Floyd, Extefani Baughman ** </kbd>
+<kbd> Taylor Williams, Amit Sheth, Dylan Floyd, Estefani Baughman  </kbd>
 
 This project focus is to recommend pets available for adoption based on your individual personality. </br>
 Problem Domain: Dogs and people have different personalities. </br>
