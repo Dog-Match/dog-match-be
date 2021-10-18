@@ -15,7 +15,19 @@ async function run() {
                 CREATE TABLE users (
                     id SERIAL PRIMARY KEY,
                     email VARCHAR(256) NOT NULL,
-                    hash VARCHAR(512) NOT NULL
+                    hash VARCHAR(512) NOT NULL,
+                    time_to_devote VARCHAR(256) NOT NULL,
+                    activity_level VARCHAR(256) NOT NULL,
+                    time_dog_at_home VARCHAR(256) NOT NULL,
+                    experience_with_dogs VARCHAR(256) NOT NULL,
+                    dwelling_size VARCHAR(256) NOT NULL,
+                    household_size VARCHAR(256) NOT NULL,
+                    children_under_10 VARCHAR(256) NOT NULL,
+                    special_consideration VARCHAR(256) NOT NULL,
+                    main_caretaker VARCHAR(256) NOT NULL,
+                    other_pets VARCHAR(256) NOT NULL,
+                    protective_breed VARCHAR(256) NOT NULL,
+                    
                 );           
                 CREATE TABLE animals (
                     id SERIAL PRIMARY KEY NOT NULL,
