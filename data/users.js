@@ -1,6 +1,7 @@
 module.exports = [
   {
     email: 'john@arbuckle.com',
+    user_name: 'Doggy',
     hash: 1234,
     time_to_devote: 'timetodevote',
     activity_level: 'activity level',
@@ -12,6 +13,6 @@ module.exports = [
     special_consideration: 'special consideration',
     main_caretaker: 'main caretaker',
     other_pets: 'other pets',
-    protective_breed: 'protective breed',
+    protective_breed: 'protective breed'
   }
 ];
