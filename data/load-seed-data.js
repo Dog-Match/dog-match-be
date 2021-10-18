@@ -1,6 +1,6 @@
 const client = require('../lib/client');
 // import our seed data:
-const animals = require('./animals.js');
+const favorites = require('./favorites.js');
 const usersData = require('./users.js');
 const { getEmoji } = require('../lib/emoji.js');
 
@@ -14,23 +14,23 @@ async function run() {
     const users = await Promise.all(
       usersData.map(user => {
         return client.query(`
-                      INSERT INTO users (email, hash)
-                      VALUES ($1, $2)
+                      INSERT INTO users (email, user_name, hash, time_to_devote, activity_level, time_dog_at_home, experience_with_dogs, dwelling_size, household_size, children_under_10, special_consideration, main_caretaker, other_pets, protective_breed)
+                      VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
                       RETURNING *;
                   `,
-        [user.email, user.hash]);
+        [user.email, user.hash, user.time_to_devote, user.activity_level, user.time_dog_at_home, user.experience_with_dogs, user.dwelling_size, user.household_size, user.children_under_10, user.special_consideration, user.main_caretaker, user.other_pets, user.protective_breed]);
       })
     );
       
     const user = users[0].rows[0];
 
     await Promise.all(
-      animals.map(animal => {
+      favorites.map(favorite => {
         return client.query(`
-                    INSERT INTO animals (name, cool_factor, owner_id)
+                    INSERT INTO favorites (id, favorite, owner_id)
                     VALUES ($1, $2, $3);
                 `,
-        [animal.name, animal.cool_factor, user.id]);
+        [1, favorite.name, user.id]);
       })
     );
     

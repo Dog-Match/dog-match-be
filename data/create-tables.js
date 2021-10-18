@@ -14,6 +14,7 @@ async function run() {
     await client.query(`
                 CREATE TABLE users (
                     id SERIAL PRIMARY KEY,
+                    user_name VARCHAR(512) NOT NULL, 
                     email VARCHAR(256) NOT NULL,
                     hash VARCHAR(512) NOT NULL,
                     time_to_devote VARCHAR(256) NOT NULL,
@@ -26,13 +27,12 @@ async function run() {
                     special_consideration VARCHAR(256) NOT NULL,
                     main_caretaker VARCHAR(256) NOT NULL,
                     other_pets VARCHAR(256) NOT NULL,
-                    protective_breed VARCHAR(256) NOT NULL,
+                    protective_breed VARCHAR(256) NOT NULL
                     
                 );           
-                CREATE TABLE animals (
-                    id SERIAL PRIMARY KEY NOT NULL,
-                    name VARCHAR(512) NOT NULL,
-                    cool_factor INTEGER NOT NULL,
+                CREATE TABLE favorites (
+                    id VARCHAR(512) NOT NULL,
+                    favorites VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
             );
         `);
