@@ -36,11 +36,6 @@ async function run() {
                     breed_id VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
                 );
-                CREATE TABLE temprs (
-                    id SERIAL PRIMARY KEY, 
-                    breed_id VARCHAR(512) NOT NULL,
-                    tempr_name VARCHAR(512) NOT NULL
-                );
         `);
 
     console.log('create tables complete', getEmoji(), getEmoji(), getEmoji());
