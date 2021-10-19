@@ -32,12 +32,13 @@ async function run() {
                     zipcode INTEGER NOT NULL
                 );           
                 CREATE TABLE favorites (
-                    id VARCHAR(512) NOT NULL,
-                    favorite VARCHAR(512) NOT NULL,
+                    id SERIAL PRIMARY KEY,
+                    favorite_id VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
                 );
                 CREATE TABLE temprs (
-                    id VARCHAR(512) NOT NULL,
+                    id SERIAL PRIMARY KEY, 
+                    breed_id VARCHAR(512) NOT NULL,
                     tempr_name VARCHAR(512) NOT NULL
                 );
         `);
