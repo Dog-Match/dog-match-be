@@ -14,26 +14,26 @@ async function run() {
     await client.query(`
                 CREATE TABLE users (
                     id SERIAL PRIMARY KEY,
-                    user_name VARCHAR(512) NOT NULL, 
+                    user_name VARCHAR(512), 
                     email VARCHAR(256) NOT NULL,
                     hash VARCHAR(512) NOT NULL,
-                    time_to_devote INTEGER NOT NULL,
-                    activity_level INTEGER NOT NULL,
-                    time_dog_at_home INTEGER NOT NULL,
-                    experience_with_dogs INTEGER NOT NULL,
-                    dwelling_size INTEGER NOT NULL,
-                    household_size INTEGER NOT NULL,
-                    children_under_10 INTEGER NOT NULL,
-                    special_consideration INTEGER NOT NULL,
-                    main_caretaker INTEGER NOT NULL,
-                    other_pets INTEGER NOT NULL,
-                    protective_breed INTEGER NOT NULL,
-                    state VARCHAR(256) NOT NULL,
-                    zipcode INTEGER NOT NULL
+                    time_to_devote INTEGER DEFAULT -1,
+                    activity_level INTEGER DEFAULT -1,
+                    time_dog_at_home INTEGER DEFAULT -1,
+                    experience_with_dogs INTEGER DEFAULT -1,
+                    dwelling_size INTEGER DEFAULT -1,
+                    household_size INTEGER DEFAULT -1,
+                    children_under_10 INTEGER DEFAULT -1,
+                    special_consideration INTEGER DEFAULT -1,
+                    main_caretaker INTEGER DEFAULT -1,
+                    other_pets INTEGER DEFAULT -1,
+                    protective_breed INTEGER DEFAULT -1,
+                    state VARCHAR(256),
+                    zipcode INTEGER
                 );           
                 CREATE TABLE favorites (
                     id SERIAL PRIMARY KEY,
-                    favorite_id VARCHAR(512) NOT NULL,
+                    breed_id VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
                 );
                 CREATE TABLE temprs (

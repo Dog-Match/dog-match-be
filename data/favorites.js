@@ -1,7 +1,6 @@
 module.exports = [
   {
-    id:1, 
-    favorite_id: 1
+    breed_id: 1
   }
 ];
   
