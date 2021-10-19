@@ -1,7 +1,7 @@
 module.exports = [
   {
     id:1, 
-    favorite: 'Husky'
+    favorite_id: 1
   }
 ];
   
