@@ -28,6 +28,7 @@ describe('app routes', () => {
       return client.end(done);
     });
 
+    /*
     test('returns animals', async() => {
 
       const expectation = [
@@ -58,5 +59,6 @@ describe('app routes', () => {
 
       expect(data.body).toEqual(expectation);
     });
+    */
   });
 });
