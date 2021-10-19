@@ -38,7 +38,7 @@ async function run() {
                 );
                 CREATE TABLE temprs (
                     id SERIAL PRIMARY KEY, 
-                    tempr_id VARCHAR(512) NOT NULL,
+                    breed_id VARCHAR(512) NOT NULL,
                     tempr_name VARCHAR(512) NOT NULL
                 );
         `);
