@@ -22,37 +22,27 @@ describe('app routes', () => {
         });
       
       token = signInData.body.token; // eslint-disable-line
-    }, 10000);
+    }, 50000);
   
     afterAll(done => {
       return client.end(done);
     });
 
-    test('returns animals', async() => {
+    test('favorites-get', async() => {
 
       const expectation = [
         {
-          'id': 1,
-          'name': 'bessie',
-          'cool_factor': 3,
-          'owner_id': 1
+          id:1, 
+          favorite_id: 1
         },
         {
-          'id': 2,
-          'name': 'jumpy',
-          'cool_factor': 4,
-          'owner_id': 1
-        },
-        {
-          'id': 3,
-          'name': 'spot',
-          'cool_factor': 10,
-          'owner_id': 1
+          id:2,
+          favorite_id:2
         }
       ];
 
       const data = await fakeRequest(app)
-        .get('/animals')
+        .get('/favorites')
         .expect('Content-Type', /json/)
         .expect(200);
 
