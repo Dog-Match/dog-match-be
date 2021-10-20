@@ -59,5 +59,23 @@ describe('app routes', () => {
         .expect(200);
       expect(data.body).toEqual(expectation);  
     });
+
+    // PUT (Update) Profile 
+    test('Update Profile', async() => {
+      const expectation = [
+        { 'completed': true, 
+          'id': expect.any(Number), 
+          'owner_id': expect.any(Number),
+          'todo': 'ride bike' }
+      ];     
+      const boing = [{ 'dingus': true }];
+      const data = await fakeRequest(app)
+        .put('/api/profile')
+        .send(boing)
+        .set('Authorization', token)
+        .expect(200);
+      expect(data.body).toEqual(expectation);  
+    });
+
   });
 });
