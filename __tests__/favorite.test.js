@@ -28,16 +28,18 @@ describe('app routes', () => {
       return client.end(done);
     });
 
-    test.skip('favorites-get', async() => {
+    test('favorites-get', async() => {
 
       const expectation = [
-        {
-          id:1, 
-          favorite_id: 1
+        { 
+          breed_id: expect.any(String),
+          id: expect.any(Number),
+          owner_id:expect.any(Number)
         },
         {
-          id:2,
-          favorite_id:2
+          breed_id: expect.any(String),
+          id: expect.any(Number),
+          owner_id:expect.any(Number)
         }
       ];
 
