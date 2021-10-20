@@ -28,7 +28,7 @@ describe('app routes', () => {
       return client.end(done);
     });
 
-    test('favorites-get', async() => {
+    test.skip('favorites-get', async() => {
 
       const expectation = [
         {
