@@ -27,7 +27,7 @@ async function run() {
     await Promise.all(
       favorites.map(favorite => {
         return client.query(`
-                    INSERT INTO favorites (breed_id, owner_id)
+                    INSERT INTO favorites (breed_name, owner_id)
                     VALUES ($1, $2);
                 `,
         [favorite.breed_id, user.id]);
