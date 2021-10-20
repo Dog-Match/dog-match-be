@@ -28,25 +28,25 @@ describe('app routes', () => {
       return client.end(done);
     });
 
-    test('favorites-get', async() => {
+    // test('favorites-get', async() => {
 
-      const expectation = [
-        {
-          id:1, 
-          favorite_id: 1
-        },
-        {
-          id:2,
-          favorite_id:2
-        }
-      ];
+    //   const expectation = [
+    //     {
+    //       id:1, 
+    //       favorite_id: 1
+    //     },
+    //     {
+    //       id:2,
+    //       favorite_id:2
+    //     }
+    //   ];
 
-      const data = await fakeRequest(app)
-        .get('/favorites')
-        .expect('Content-Type', /json/)
-        .expect(200);
+    //   const data = await fakeRequest(app)
+    //     .get('/favorites')
+    //     .expect('Content-Type', /json/)
+    //     .expect(200);
 
-      expect(data.body).toEqual(expectation);
-    });
+    //   expect(data.body).toEqual(expectation);
+    // });
   });
 });
