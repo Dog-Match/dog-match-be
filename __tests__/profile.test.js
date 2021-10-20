@@ -62,16 +62,31 @@ describe('app routes', () => {
 
     // PUT (Update) Profile 
     test('Update Profile', async() => {
-      const expectation = [
-        { 'completed': true, 
-          'id': expect.any(Number), 
-          'owner_id': expect.any(Number),
-          'todo': 'ride bike' }
-      ];     
-      const boing = [{ 'dingus': true }];
+      const thingy = {
+        profile: {
+          user_name: 'dylan',
+          time_to_devote: 1,
+          activity_level: 1,
+          time_dog_at_home: 1,
+          experience_with_dogs: 1,
+          dwelling_size: 1,
+          household_size: 1,
+          children_under_10: 1,
+          special_consideration: 1,
+          main_caretaker: 1,
+          other_pets: 1,
+          protective_breed: 1,
+          state: 'WA',
+          zipcode: 98682
+        }
+      };
+      const expectation = thingy.profile;
+      expectation.email = expect.any(String);
+      expectation.hash = expect.any(String);
+      expectation.id = expect.any(Number);
       const data = await fakeRequest(app)
         .put('/api/profile')
-        .send(boing)
+        .send(thingy)
         .set('Authorization', token)
         .expect(200);
       expect(data.body).toEqual(expectation);  
