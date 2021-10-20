@@ -28,25 +28,27 @@ describe('app routes', () => {
       return client.end(done);
     });
 
-    test.skip('favorites-get', async() => {
+    test('favorites-get', async() => {
 
-      //   const expectation = [
-      //     {
-      //       id:1, 
-      //       favorite_id: 1
-      //     },
-      //     {
-      //       id:2,
-      //       favorite_id:2
-      //     }
-      //   ];
+      const expectation = [
+        { 
+          breed_id: expect.any(String),
+          id: expect.any(Number),
+          owner_id:expect.any(Number)
+        },
+        {
+          breed_id: expect.any(String),
+          id: expect.any(Number),
+          owner_id:expect.any(Number)
+        }
+      ];
 
-      //   const data = await fakeRequest(app)
-      //     .get('/favorites')
-      //     .expect('Content-Type', /json/)
-      //     .expect(200);
+      const data = await fakeRequest(app)
+        .get('/favorites')
+        .expect('Content-Type', /json/)
+        .expect(200);
 
-    //   expect(data.body).toEqual(expectation);
+      expect(data.body).toEqual(expectation);
     });
   });
 });
