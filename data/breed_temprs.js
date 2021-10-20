@@ -1,4 +1,4 @@
-const temprData = [
+const breed_temprs = [
   {
     name: 'Affenpinscher',
     temprs: ['Stubborn', 'Curious', 'Playful', 'Adventurous', 'Active', 'Fun-loving']
@@ -675,5 +675,5 @@ const temprData = [
 
 
 module.exports = {
-  temprData
+  temprData: breed_temprs
 };
