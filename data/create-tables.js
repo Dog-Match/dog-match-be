@@ -33,7 +33,7 @@ async function run() {
                 );           
                 CREATE TABLE favorites (
                     id SERIAL PRIMARY KEY,
-                    breed_id VARCHAR(512) NOT NULL,
+                    breed_name VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
                 );
         `);
