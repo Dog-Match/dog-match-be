@@ -30,7 +30,7 @@ async function run() {
                     INSERT INTO favorites (breed_name, owner_id)
                     VALUES ($1, $2);
                 `,
-        [favorite.breed_id, user.id]);
+        [favorite.breed_name, user.id]);
       })
     );
 
