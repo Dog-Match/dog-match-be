@@ -21,4 +21,7 @@ jobs:
     - run: npm test
       env:
         CI: true
+        DOG_API: ${{ secrets.DOG_API }}
+        PETFINDER_ID: ${{ secrets.PETFINDER_ID }}
+        PETFINDER_SECRET: ${{ secrets.PETFINDER_SECRET }}
         DATABASE_URL: postgres://postgres:postgres@postgres:5432/postgres
