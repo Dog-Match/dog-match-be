@@ -53,7 +53,6 @@ describe('favorites routes', () => {
       return client.end(done);
     });
 
-    jest.setTimeout(50000);
     test('favorites-post', async() => {
 
       const expectation =  [
