@@ -36,7 +36,7 @@ API's used:
 </ul>
 </br>
 Database Schemas:
-</ul>
+<ul>
 <li>SQL deployed through Heroku </li>
 <li>Tables: Users & Favorites </li>
 <li>Data:  Breed Temperaments, Temperament Categories, Users, and Favorites. </li>
