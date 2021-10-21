@@ -152,6 +152,7 @@ describe('recommendations route', () => {
       return client.end(done);
     });
 
+    jest.setTimeout(50000);
     test('GET /api/recommendations returns breed objects with the appropiate properties', async () => {
       const expected = {
         weight: {

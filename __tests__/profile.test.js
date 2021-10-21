@@ -28,6 +28,7 @@ describe('app routes', () => {
       return client.end(done);
     });
 
+    jest.setTimeout(50000);
     // GET Profile
     test('GET Profile', async() => {
       const expectation = [
