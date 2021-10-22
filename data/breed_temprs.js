@@ -4,32 +4,12 @@ const breedTemprs = [
     temprs: ['Stubborn', 'Curious', 'Playful', 'Adventurous', 'Active', 'Fun-loving']
   },
   {
-    name: 'Afghan Hound',
-    temprs: ['Aloof', 'Clownish', 'Dignified', 'Independent', 'Happy']
-  },
-  {
-    name: 'African Hunting Dog',
-    temprs: ['Wild', 'Hardworking', 'Dutiful']
-  },
-  {
     name: 'Airedale Terrier',
     temprs: ['Outgoing', 'Friendly', 'Alert', 'Confident', 'Intelligent', 'Courageous']
   },
   {
-    name: 'Akbash Dog',
-    temprs: ['Loyal', 'Independent', 'Intelligent', 'Brave']
-  },
-  {
     name: 'Akita',
     temprs: ['Docile', 'Alert', 'Responsive', 'Dignified', 'Composed', 'Friendly', 'Receptive', 'Faithful', 'Courageous']
-  },
-  {
-    name: 'Alapaha Blue Blood Bulldog',
-    temprs: ['Loving', 'Protective', 'Trainable', 'Dutiful', 'Responsible']
-  },
-  {
-    name: 'Alaskan Husky',
-    temprs: ['Friendly', 'Energetic', 'Loyal', 'Gentle', 'Confident']
   },
   {
     name: 'American Bulldog',
@@ -40,24 +20,20 @@ const breedTemprs = [
     temprs: ['Friendly', 'Affectionate', 'Devoted', 'Loyal', 'Dignified', 'Playful']
   },
   {
-    name: 'American Eskimo Dog',
-    temprs: ['Friendly', 'Alert', 'Reserved', 'Intelligent', 'Protective']
+    name: 'Afghan Hound',
+    temprs: ['Aloof', 'Clownish', 'Dignified', 'Independent', 'Happy']
   },
   {
     name: 'American Bully',
     temprs: ['Strong Willed', 'Stubborn', 'Friendly', 'Clownish', 'Affectionate', 'Loyal', 'Obedient', 'Intelligent', 'Courageous']
   },
   {
-    name: 'American Eskimo Dog (Miniature)',
+    name: 'American Eskimo Dog',
     temprs: ['Friendly', 'Alert', 'Reserved', 'Intelligent', 'Protective']
   },
   {
     name: 'American Foxhound',
     temprs: ['Kind', 'Sweet-Tempered', 'Loyal', 'Independent', 'Intelligent', 'Loving']
-  },
-  {
-    name: 'American Pit Bull Terrier',
-    temprs: ['Strong Willed', 'Stubborn', 'Friendly', 'Clownish', 'Affectionate', 'Loyal', 'Obedient', 'Intelligent', 'Courageous']
   },
   {
     name: 'American Staffordshire Terrier',
@@ -68,36 +44,16 @@ const breedTemprs = [
     temprs: ['Friendly', 'Energetic', 'Obedient', 'Intelligent', 'Protective', 'Trainable']
   },
   {
-    name: 'Anatolian Shepherd Dog',
-    temprs: ['Steady', 'Bold', 'Independent', 'Confident', 'Intelligent', 'Proud']
-  },
-  {
-    name: 'Appenzeller Sennenhund',
-    temprs: ['Reliable', 'Fearless', 'Energetic', 'Lively', 'Self-assured']
-  },
-  {
-    name: 'Australian Cattle Dog',
-    temprs: ['Cautious', 'Energetic', 'Loyal', 'Obedient', 'Protective', 'Brave']
+    name: 'Australian Shepherd',
+    temprs: ['Good-natured', 'Affectionate', 'Intelligent', 'Active', 'Protective']
   },
   {
     name: 'Australian Kelpie',
     temprs: ['Friendly', 'Energetic', 'Alert', 'Loyal', 'Intelligent', 'Eager']
   },
   {
-    name: 'Australian Shepherd',
-    temprs: ['Good-natured', 'Affectionate', 'Intelligent', 'Active', 'Protective']
-  },
-  {
     name: 'Australian Terrier',
     temprs: ['Spirited', 'Alert', 'Loyal', 'Companionable', 'Even Tempered', 'Courageous']
-  },
-  {
-    name: 'Azawakh',
-    temprs: ['Aloof', 'Affectionate', 'Attentive', 'Rugged', 'Fierce', 'Refined']
-  },
-  {
-    name: 'Barbet',
-    temprs: ['Obedient', 'Companionable', 'Intelligent', 'Joyful']
   },
   {
     name: 'Basenji',
@@ -108,32 +64,20 @@ const breedTemprs = [
     temprs: ['Tenacious', 'Friendly', 'Affectionate', 'Devoted', 'Sweet-Tempered', 'Gentle']
   },
   {
-    name: 'Basset Bleu de Gascogne',
-    temprs: ['Affectionate', 'Lively', 'Agile', 'Curious', 'Happy', 'Active']
-  },
-  {
     name: 'Beagle',
     temprs: ['Amiable', 'Even Tempered', 'Excitable', 'Determined', 'Gentle', 'Intelligent']
-  },
-  {
-    name: 'Beauceron',
-    temprs: ['Fearless', 'Friendly', 'Intelligent', 'Protective', 'Calm']
   },
   {
     name: 'Bearded Collie',
     temprs: ['Self-confidence', 'Hardy', 'Lively', 'Alert', 'Intelligent', 'Active']
   },
   {
-    name: 'Belgian Malinois',
-    temprs: ['Watchful', 'Alert', 'Stubborn', 'Friendly', 'Confident', 'Hard-working', 'Active', 'Protective']
-  },
-  {
-    name: 'Belgian Tervuren',
-    temprs: ['Energetic', 'Alert', 'Loyal', 'Intelligent', 'Attentive', 'Protective']
-  },
-  {
     name: 'Bichon Frise',
     temprs: ['Feisty', 'Affectionate', 'Cheerful', 'Playful', 'Gentle', 'Sensitive']
+  },
+  {
+    name: 'Beauceron',
+    temprs: ['Fearless', 'Friendly', 'Intelligent', 'Protective', 'Calm']
   },
   {
     name: 'Bernese Mountain Dog',
@@ -148,16 +92,12 @@ const breedTemprs = [
     temprs: ['Stubborn', 'Affectionate', 'Gentle', 'Even Tempered']
   },
   {
-    name: 'Bedlington Terrier',
-    temprs: ['Affectionate', 'Spirited', 'Intelligent', 'Good-tempered']
-  },
-  {
     name: 'Bluetick Coonhound',
     temprs: ['Friendly', 'Intelligent', 'Active']
   },
   {
-    name: 'Boerboel',
-    temprs: ['Obedient', 'Confident', 'Intelligent', 'Dominant', 'Territorial']
+    name: 'Bedlington Terrier',
+    temprs: ['Affectionate', 'Spirited', 'Intelligent', 'Good-tempered']
   },
   {
     name: 'Border Collie',
@@ -172,6 +112,10 @@ const breedTemprs = [
     temprs: ['Friendly', 'Lively', 'Intelligent']
   },
   {
+    name: 'Boerboel',
+    temprs: ['Obedient', 'Confident', 'Intelligent', 'Dominant', 'Territorial']
+  },
+  {
     name: 'Bouvier des Flandres',
     temprs: ['Protective', 'Loyal', 'Gentle', 'Intelligent', 'Familial', 'Rational']
   },
@@ -184,32 +128,16 @@ const breedTemprs = [
     temprs: ['Friendly', 'Energetic', 'Companionable', 'Intelligent', 'Eager', 'Trainable']
   },
   {
-    name: 'Bracco Italiano',
-    temprs: ['Stubborn', 'Affectionate', 'Loyal', 'Playful', 'Companionable', 'Trainable']
+    name: 'Bull Terrier',
+    temprs: ['Trainable', 'Protective', 'Sweet-Tempered', 'Keen', 'Active']
   },
   {
     name: 'Briard',
     temprs: ['Fearless', 'Loyal', 'Obedient', 'Intelligent', 'Faithful', 'Protective']
   },
   {
-    name: 'Brittany',
-    temprs: ['Agile', 'Adaptable', 'Quick', 'Intelligent', 'Attentive', 'Happy']
-  },
-  {
-    name: 'Bull Terrier',
-    temprs: ['Trainable', 'Protective', 'Sweet-Tempered', 'Keen', 'Active']
-  },
-  {
-    name: 'Bull Terrier (Miniature)',
-    temprs: ['Trainable', 'Protective', 'Sweet-Tempered', 'Keen', 'Active', 'Territorial']
-  },
-  {
     name: 'Bullmastiff',
     temprs: ['Docile', 'Reliable', 'Devoted', 'Alert', 'Loyal', 'Reserved', 'Loving', 'Protective', 'Powerful', 'Calm', 'Courageous']
-  },
-  {
-    name: 'Cairn Terrier',
-    temprs: ['Hardy', 'Fearless', 'Assertive', 'Gay', 'Intelligent', 'Active']
   },
   {
     name: 'Cane Corso',
@@ -224,64 +152,52 @@ const breedTemprs = [
     temprs: ['Energetic', 'Inquisitive', 'Independent', 'Gentle', 'Intelligent', 'Loving']
   },
   {
-    name: 'Caucasian Shepherd (Ovcharka)',
-    temprs: ['Alert', 'Quick', 'Dominant', 'Powerful', 'Calm', 'Strong']
-  },
-  {
     name: 'Cavalier King Charles Spaniel',
     temprs: ['Fearless', 'Affectionate', 'Sociable', 'Patient', 'Playful', 'Adaptable']
+  },
+  {
+    name: 'Cairn Terrier',
+    temprs: ['Hardy', 'Fearless', 'Assertive', 'Gay', 'Intelligent', 'Active']
   },
   {
     name: 'Chesapeake Bay Retriever',
     temprs: ['Affectionate', 'Intelligent', 'Quiet', 'Dominant', 'Happy', 'Protective']
   },
   {
-    name: 'Chinese Crested',
-    temprs: ['Affectionate', 'Sweet-Tempered', 'Lively', 'Alert', 'Playful', 'Happy']
-  },
-  {
-    name: 'Chinese Shar-Pei',
-    temprs: ['Suspicious', 'Affectionate', 'Devoted', 'Reserved', 'Independent', 'Loving']
-  },
-  {
     name: 'Chinook',
     temprs: ['Friendly', 'Alert', 'Dignified', 'Intelligent', 'Calm']
-  },
-  {
-    name: 'Chow Chow',
-    temprs: ['Aloof', 'Loyal', 'Independent', 'Quiet']
   },
   {
     name: 'Clumber Spaniel',
     temprs: ['Affectionate', 'Loyal', 'Dignified', 'Gentle', 'Calm', 'Great-hearted']
   },
   {
-    name: 'Cocker Spaniel',
-    temprs: ['Trainable', 'Friendly', 'Affectionate', 'Playful', 'Quiet', 'Faithful']
+    name: 'Chow Chow',
+    temprs: ['Aloof', 'Loyal', 'Independent', 'Quiet']
   },
   {
-    name: 'Cocker Spaniel (American)',
-    temprs: ['Outgoing', 'Sociable', 'Trusting', 'Joyful', 'Even Tempered', 'Merry']
+    name: 'Cocker Spaniel',
+    temprs: ['Trainable', 'Friendly', 'Affectionate', 'Playful', 'Quiet', 'Faithful']
   },
   {
     name: 'Coton de Tulear',
     temprs: ['Affectionate', 'Lively', 'Playful', 'Intelligent', 'Trainable', 'Vocal']
   },
   {
-    name: 'Dalmatian',
-    temprs: ['Outgoing', 'Friendly', 'Energetic', 'Playful', 'Sensitive', 'Intelligent', 'Active']
-  },
-  {
     name: 'Doberman Pinscher',
     temprs: ['Fearless', 'Energetic', 'Alert', 'Loyal', 'Obedient', 'Confident', 'Intelligent']
   },
   {
-    name: 'Dogo Argentino',
-    temprs: ['Friendly', 'Affectionate', 'Cheerful', 'Loyal', 'Tolerant', 'Protective']
+    name: 'Dalmatian',
+    temprs: ['Outgoing', 'Friendly', 'Energetic', 'Playful', 'Sensitive', 'Intelligent', 'Active']
   },
   {
     name: 'Dutch Shepherd',
     temprs: ['Reliable', 'Affectionate', 'Alert', 'Loyal', 'Obedient', 'Trainable']
+  },
+  {
+    name: 'Dogo Argentino',
+    temprs: ['Friendly', 'Affectionate', 'Cheerful', 'Loyal', 'Tolerant', 'Protective']
   },
   {
     name: 'English Setter',
@@ -300,14 +216,6 @@ const breedTemprs = [
     temprs: ['Affectionate', 'Reserved', 'Playful', 'Gentle', 'Happy', 'Loving']
   },
   {
-    name: 'English Toy Terrier',
-    temprs: ['Stubborn', 'Alert', 'Companionable', 'Intelligent', 'Cunning', 'Trainable']
-  },
-  {
-    name: 'Eurasier',
-    temprs: ['Alert', 'Reserved', 'Intelligent', 'Even Tempered', 'Watchful', 'Calm']
-  },
-  {
     name: 'Field Spaniel',
     temprs: ['Docile', 'Cautious', 'Sociable', 'Sensitive', 'Adaptable', 'Familial']
   },
@@ -324,10 +232,6 @@ const breedTemprs = [
     temprs: ['Playful', 'Affectionate', 'Keen', 'Sociable', 'Lively', 'Alert', 'Easygoing', 'Patient', 'Athletic', 'Bright']
   },
   {
-    name: 'German Pinscher',
-    temprs: ['Spirited', 'Lively', 'Intelligent', 'Loving', 'Even Tempered', 'Familial']
-  },
-  {
     name: 'German Shepherd Dog',
     temprs: ['Alert', 'Loyal', 'Obedient', 'Curious', 'Confident', 'Intelligent', 'Watchful', 'Courageous']
   },
@@ -340,16 +244,20 @@ const breedTemprs = [
     temprs: ['Spirited', 'Agile', 'Loyal', 'Gentle', 'Active', 'Courageous']
   },
   {
-    name: 'Golden Retriever',
-    temprs: ['Intelligent', 'Kind', 'Reliable', 'Friendly', 'Trustworthy', 'Confident']
+    name: 'German Pinscher',
+    temprs: ['Spirited', 'Lively', 'Intelligent', 'Loving', 'Even Tempered', 'Familial']
+  },
+  {
+    name: 'Giant Schnauzer',
+    temprs: ['Strong Willed', 'Kind', 'Loyal', 'Intelligent', 'Dominant', 'Powerful']
   },
   {
     name: 'Great Dane',
     temprs: ['Friendly', 'Devoted', 'Reserved', 'Gentle', 'Confident', 'Loving']
   },
   {
-    name: 'Giant Schnauzer',
-    temprs: ['Strong Willed', 'Kind', 'Loyal', 'Intelligent', 'Dominant', 'Powerful']
+    name: 'Golden Retriever',
+    temprs: ['Intelligent', 'Kind', 'Reliable', 'Friendly', 'Trustworthy', 'Confident']
   },
   {
     name: 'Great Pyrenees',
@@ -358,10 +266,6 @@ const breedTemprs = [
   {
     name: 'Gordon Setter',
     temprs: ['Fearless', 'Alert', 'Loyal', 'Confident', 'Gay', 'Eager']
-  },
-  {
-    name: 'Griffon Bruxellois',
-    temprs: ['Self-important', 'Inquisitive', 'Alert', 'Companionable', 'Sensitive', 'Watchful']
   },
   {
     name: 'Greyhound',
@@ -384,64 +288,52 @@ const breedTemprs = [
     temprs: ['Mischievous', 'Affectionate', 'Agile', 'Athletic', 'Companionable', 'Intelligent']
   },
   {
-    name: 'Irish Terrier',
-    temprs: ['Respectful', 'Lively', 'Intelligent', 'Dominant', 'Protective', 'Trainable']
-  },
-  {
     name: 'Japanese Chin',
     temprs: ['Alert', 'Loyal', 'Independent', 'Intelligent', 'Loving', 'Cat-like']
   },
   {
-    name: 'Japanese Spitz',
-    temprs: ['Affectionate', 'Obedient', 'Playful', 'Companionable', 'Intelligent', 'Proud']
+    name: 'Irish Terrier',
+    temprs: ['Respectful', 'Lively', 'Intelligent', 'Dominant', 'Protective', 'Trainable']
   },
   {
     name: 'Irish Wolfhound',
     temprs: ['Sweet-Tempered', 'Loyal', 'Dignified', 'Patient', 'Thoughtful', 'Generous']
   },
   {
-    name: 'Keeshond',
-    temprs: ['Agile', 'Obedient', 'Playful', 'Quick', 'Sturdy', 'Bright']
+    name: 'Kuvasz',
+    temprs: ['Clownish', 'Loyal', 'Patient', 'Independent', 'Intelligent', 'Protective']
   },
   {
     name: 'Komondor',
     temprs: ['Steady', 'Fearless', 'Affectionate', 'Independent', 'Gentle', 'Calm']
   },
   {
-    name: 'Kooikerhondje',
-    temprs: ['Benevolent', 'Agile', 'Alert', 'Intelligent', 'Active', 'Territorial']
-  },
-  {
-    name: 'Kuvasz',
-    temprs: ['Clownish', 'Loyal', 'Patient', 'Independent', 'Intelligent', 'Protective']
+    name: 'Lancashire Heeler',
+    temprs: ['Clever', 'Friendly', 'Alert', 'Intelligent']
   },
   {
     name: 'Labrador Retriever',
     temprs: ['Kind', 'Outgoing', 'Agile', 'Gentle', 'Intelligent', 'Trusting', 'Even Tempered']
   },
   {
-    name: 'Lagotto Romagnolo',
-    temprs: ['Keen', 'Loyal', 'Companionable', 'Loving', 'Active', 'Trainable']
+    name: 'Lhasa Apso',
+    temprs: ['Steady', 'Fearless', 'Friendly', 'Devoted', 'Assertive', 'Spirited', 'Energetic', 'Lively', 'Alert', 'Obedient', 'Playful', 'Intelligent']
   },
   {
-    name: 'Lancashire Heeler',
-    temprs: ['Clever', 'Friendly', 'Alert', 'Intelligent']
+    name: 'Keeshond',
+    temprs: ['Agile', 'Obedient', 'Playful', 'Quick', 'Sturdy', 'Bright']
   },
   {
     name: 'Leonberger',
     temprs: ['Obedient', 'Fearless', 'Loyal', 'Companionable', 'Adaptable', 'Loving']
   },
   {
-    name: 'Lhasa Apso',
-    temprs: ['Steady', 'Fearless', 'Friendly', 'Devoted', 'Assertive', 'Spirited', 'Energetic', 'Lively', 'Alert', 'Obedient', 'Playful', 'Intelligent']
-  },
-  {
     name: 'Maltese',
     temprs: ['Playful', 'Docile', 'Fearless', 'Affectionate', 'Sweet-Tempered', 'Lively', 'Responsive', 'Easygoing', 'Gentle', 'Intelligent', 'Active']
   },
   {
-    name: 'Miniature American Shepherd',
-    temprs: ['Energetic', 'Loyal', 'Intelligent', 'Trainable']
+    name: 'Norfolk Terrier',
+    temprs: ['Self-confidence', 'Fearless', 'Spirited', 'Companionable', 'Happy', 'Lovable']
   },
   {
     name: 'Miniature Pinscher',
@@ -450,14 +342,6 @@ const breedTemprs = [
   {
     name: 'Miniature Schnauzer',
     temprs: ['Fearless', 'Friendly', 'Spirited', 'Alert', 'Obedient', 'Intelligent']
-  },
-  {
-    name: 'Newfoundland',
-    temprs: ['Sweet-Tempered', 'Gentle', 'Trainable']
-  },
-  {
-    name: 'Norfolk Terrier',
-    temprs: ['Self-confidence', 'Fearless', 'Spirited', 'Companionable', 'Happy', 'Lovable']
   },
   {
     name: 'Norwich Terrier',
@@ -472,32 +356,16 @@ const breedTemprs = [
     temprs: ['Hardy', 'Friendly', 'Energetic', 'Alert', 'Intelligent', 'Happy']
   },
   {
-    name: 'Olde English Bulldogge',
-    temprs: ['Friendly', 'Alert', 'Confident', 'Loving', 'Courageous', 'Strong']
-  },
-  {
     name: 'Old English Sheepdog',
     temprs: ['Sociable', 'Bubbly', 'Playful', 'Adaptable', 'Intelligent', 'Loving']
-  },
-  {
-    name: 'Pembroke Welsh Corgi',
-    temprs: ['Tenacious', 'Outgoing', 'Friendly', 'Bold', 'Playful', 'Protective']
   },
   {
     name: 'Pekingese',
     temprs: ['Opinionated', 'Good-natured', 'Stubborn', 'Affectionate', 'Aggressive', 'Intelligent']
   },
   {
-    name: 'Plott',
-    temprs: ['Bold', 'Alert', 'Loyal', 'Intelligent']
-  },
-  {
-    name: 'Perro de Presa Canario',
-    temprs: ['Strong Willed', 'Suspicious', 'Gentle', 'Dominant', 'Calm']
-  },
-  {
-    name: 'Pomeranian',
-    temprs: ['Extroverted', 'Friendly', 'Sociable', 'Playful', 'Intelligent', 'Active']
+    name: 'Pembroke Welsh Corgi',
+    temprs: ['Tenacious', 'Outgoing', 'Friendly', 'Bold', 'Playful', 'Protective']
   },
   {
     name: 'Pug',
@@ -508,48 +376,48 @@ const breedTemprs = [
     temprs: ['Energetic', 'Agile', 'Loyal', 'Obedient', 'Intelligent', 'Faithful']
   },
   {
-    name: 'Rat Terrier',
-    temprs: ['Affectionate', 'Lively', 'Inquisitive', 'Alert', 'Intelligent', 'Loving']
+    name: 'Pomeranian',
+    temprs: ['Extroverted', 'Friendly', 'Sociable', 'Playful', 'Intelligent', 'Active']
   },
   {
-    name: 'Pharaoh Hound',
-    temprs: ['Affectionate', 'Sociable', 'Playful', 'Intelligent', 'Active', 'Trainable']
+    name: 'Rat Terrier',
+    temprs: ['Affectionate', 'Lively', 'Inquisitive', 'Alert', 'Intelligent', 'Loving']
   },
   {
     name: 'Redbone Coonhound',
     temprs: ['Affectionate', 'Energetic', 'Independent', 'Companionable', 'Familial', 'Unflappable']
   },
   {
-    name: 'Rhodesian Ridgeback',
-    temprs: ['Strong Willed', 'Mischievous', 'Loyal', 'Dignified', 'Sensitive', 'Intelligent']
+    name: 'Pharaoh Hound',
+    temprs: ['Affectionate', 'Sociable', 'Playful', 'Intelligent', 'Active', 'Trainable']
   },
   {
     name: 'Rottweiler',
     temprs: ['Steady', 'Good-natured', 'Fearless', 'Devoted', 'Alert', 'Obedient', 'Confident', 'Self-assured', 'Calm', 'Courageous']
   },
   {
-    name: 'Saluki',
-    temprs: ['Aloof', 'Reserved', 'Intelligent', 'Quiet']
+    name: 'Rhodesian Ridgeback',
+    temprs: ['Strong Willed', 'Mischievous', 'Loyal', 'Dignified', 'Sensitive', 'Intelligent']
   },
   {
-    name: 'Saint Bernard',
-    temprs: ['Friendly', 'Lively', 'Gentle', 'Watchful', 'Calm']
+    name: 'Saluki',
+    temprs: ['Aloof', 'Reserved', 'Intelligent', 'Quiet']
   },
   {
     name: 'Pumi',
     temprs: ['Lively', 'Reserved', 'Intelligent', 'Active', 'Protective', 'Vocal']
   },
   {
-    name: 'Samoyed',
-    temprs: ['Stubborn', 'Friendly', 'Sociable', 'Lively', 'Alert', 'Playful']
-  },
-  {
     name: 'Schipperke',
     temprs: ['Fearless', 'Agile', 'Curious', 'Independent', 'Confident', 'Faithful']
   },
   {
-    name: 'Scottish Deerhound',
-    temprs: ['Docile', 'Friendly', 'Dignified', 'Gentle']
+    name: 'Saint Bernard',
+    temprs: ['Friendly', 'Lively', 'Gentle', 'Watchful', 'Calm']
+  },
+  {
+    name: 'Samoyed',
+    temprs: ['Stubborn', 'Friendly', 'Sociable', 'Lively', 'Alert', 'Playful']
   },
   {
     name: 'Shiba Inu',
@@ -560,28 +428,20 @@ const breedTemprs = [
     temprs: ['Feisty', 'Alert', 'Independent', 'Playful', 'Quick', 'Self-assured']
   },
   {
-    name: 'Shetland Sheepdog',
-    temprs: ['Affectionate', 'Lively', 'Responsive', 'Alert', 'Loyal', 'Reserved', 'Playful', 'Gentle', 'Intelligent', 'Active', 'Trainable', 'Strong']
-  },
-  {
     name: 'Shih Tzu',
     temprs: ['Clever', 'Spunky', 'Outgoing', 'Friendly', 'Affectionate', 'Lively', 'Alert', 'Loyal', 'Independent', 'Playful', 'Gentle', 'Intelligent', 'Happy', 'Active', 'Courageous']
-  },
-  {
-    name: 'Siberian Husky',
-    temprs: ['Outgoing', 'Friendly', 'Alert', 'Gentle', 'Intelligent']
-  },
-  {
-    name: 'Shiloh Shepherd',
-    temprs: ['Outgoing', 'Loyal', 'Companionable', 'Gentle', 'Loving', 'Trainable']
   },
   {
     name: 'Smooth Fox Terrier',
     temprs: ['Fearless', 'Affectionate', 'Alert', 'Playful', 'Intelligent', 'Active']
   },
   {
-    name: 'Soft Coated Wheaten Terrier',
-    temprs: ['Affectionate', 'Spirited', 'Energetic', 'Playful', 'Intelligent', 'Faithful']
+    name: 'Siberian Husky',
+    temprs: ['Outgoing', 'Friendly', 'Alert', 'Gentle', 'Intelligent']
+  },
+  {
+    name: 'Scottish Deerhound',
+    temprs: ['Docile', 'Friendly', 'Dignified', 'Gentle']
   },
   {
     name: 'Silky Terrier',
@@ -620,12 +480,12 @@ const breedTemprs = [
     temprs: ['Trainable', 'Diligent', 'Affectionate', 'Loyal', 'Athletic', 'Intelligent']
   },
   {
-    name: 'Tibetan Terrier',
-    temprs: ['Affectionate', 'Energetic', 'Amiable', 'Reserved', 'Gentle', 'Sensitive']
-  },
-  {
     name: 'Toy Fox Terrier',
     temprs: ['Friendly', 'Spirited', 'Alert', 'Loyal', 'Playful', 'Intelligent']
+  },
+  {
+    name: 'Tibetan Terrier',
+    temprs: ['Affectionate', 'Energetic', 'Amiable', 'Reserved', 'Gentle', 'Sensitive']
   },
   {
     name: 'Treeing Walker Coonhound',
@@ -644,24 +504,16 @@ const breedTemprs = [
     temprs: ['Stubborn', 'Friendly', 'Affectionate', 'Loyal', 'Playful', 'Active']
   },
   {
-    name: 'West Highland White Terrier',
-    temprs: ['Hardy', 'Friendly', 'Alert', 'Independent', 'Gay', 'Active', 'Courageous']
-  },
-  {
     name: 'Whippet',
     temprs: ['Friendly', 'Affectionate', 'Lively', 'Gentle', 'Intelligent', 'Quiet']
   },
   {
-    name: 'White Shepherd',
-    temprs: ['Self-confidence', 'Aloof', 'Fearless', 'Alert', 'Companionable', 'Eager']
+    name: 'Wirehaired Pointing Griffon',
+    temprs: ['Loyal', 'Gentle', 'Vigilant', 'Trainable', 'Proud']
   },
   {
     name: 'Wire Fox Terrier',
     temprs: ['Fearless', 'Friendly', 'Bold', 'Keen', 'Alert', 'Quick']
-  },
-  {
-    name: 'Wirehaired Pointing Griffon',
-    temprs: ['Loyal', 'Gentle', 'Vigilant', 'Trainable', 'Proud']
   },
   {
     name: 'Xoloitzcuintli',
