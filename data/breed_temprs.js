@@ -84,16 +84,8 @@ const breedTemprs = [
     temprs: ['Affectionate', 'Loyal', 'Intelligent', 'Faithful']
   },
   {
-    name: 'Black and Tan Coonhound',
-    temprs: ['Easygoing', 'Gentle', 'Adaptable', 'Trusting', 'Even Tempered', 'Lovable']
-  },
-  {
     name: 'Bloodhound',
     temprs: ['Stubborn', 'Affectionate', 'Gentle', 'Even Tempered']
-  },
-  {
-    name: 'Bluetick Coonhound',
-    temprs: ['Friendly', 'Intelligent', 'Active']
   },
   {
     name: 'Bedlington Terrier',
@@ -384,10 +376,6 @@ const breedTemprs = [
     temprs: ['Affectionate', 'Lively', 'Inquisitive', 'Alert', 'Intelligent', 'Loving']
   },
   {
-    name: 'Redbone Coonhound',
-    temprs: ['Affectionate', 'Energetic', 'Independent', 'Companionable', 'Familial', 'Unflappable']
-  },
-  {
     name: 'Pharaoh Hound',
     temprs: ['Affectionate', 'Sociable', 'Playful', 'Intelligent', 'Active', 'Trainable']
   },
@@ -486,10 +474,6 @@ const breedTemprs = [
   {
     name: 'Tibetan Terrier',
     temprs: ['Affectionate', 'Energetic', 'Amiable', 'Reserved', 'Gentle', 'Sensitive']
-  },
-  {
-    name: 'Treeing Walker Coonhound',
-    temprs: ['Clever', 'Affectionate', 'Confident', 'Intelligent', 'Loving', 'Trainable']
   },
   {
     name: 'Vizsla',
